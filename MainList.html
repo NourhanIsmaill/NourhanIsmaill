@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <link rel="stylesheet" type="text/css" href="Header.css" />
+    <link rel="stylesheet" type="text/css" href="News/Footer.css"/>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Lists</title>
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom,
+                    #050505 0%,
+                    #050505 20%,
+                    #262a31 40%,
+                    #15161a 60%,
+                    #0b0c0e 80%,
+                    #050505 100%);
+        }
+        
+        hr{
+    width: 75%; 
+      height: 2px; 
+      background-color: #b7c5de8e; 
+      border: none; 
+      margin: 0 auto;
+        }
+td{
+ border-radius: 10px;
+ 
+}
+
+table
+{
+    border-spacing: 50px;
+    position: relative;
+}
+.linkA
+{
+    display: block; 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 1px solid gray; 
+}
+.linkA:hover {
+    transform: scale(1.1); 
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid white;
+}
+.tableoflikes
+{
+    border: 2px solid #b7c5de ;
+    
+}
+tr {
+    text-align: center;
+    border-bottom: 3px solid #444;
+}
+
+.preIcon
+{
+    display: flex;
+}
+.icon
+{
+   
+    margin: 5px;
+    text-decoration: wavy ;
+}
+.icon-container {
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 10px; 
+    font-size: 14px;
+    color: white; 
+    z-index: 2; 
+    background-color: #b7c5de transparent;
+    border: 1px solid #3f444d;
+    border-radius: 5px;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon i {
+    color: #4CAF50; 
+    font-size: 16px;
+}
+.star-rating {
+    display: flex;
+    gap: 5px; 
+    font-size: 20px; 
+    color: #1a8835; 
+}
+
+.star-rating i {
+    cursor: pointer; 
+    transition: color 0.3s ease;
+}
+.icon-container_review
+{
+    display: inline-block;
+    display: flex;
+}
+
+
+.TitleReviewA a
+{
+    color: #b7c5de;
+}
+.TitleReviewA a:hover
+{
+    color: white;
+}
+.reviewLinkhover
+{
+    text-decoration: none;
+
+}
+/* تكبير محتوى td عند hover */
+.reviewLinkhover:hover .review td {
+    transform: scale(1.1);
+    padding-left: 5%; 
+    transition: transform 0.3s ease; 
+}
+
+
+
+        </style>
+</head>
+
+<body>
+    <!--Navbar Start-->
+    <div class="menu">
+        <div class="Leftmenu">
+            <img src="Images/Logo2.png">
+        </div>
+        <div class="rightmenu">
+            <div class="dropDown">
+                <div class="bgcolorEmail">
+                    <img src="Images/person.jpeg" alt="avatar" class="Avatar">
+                    <button class="dropbtn">NOUR12365 <span class="material-icons">arrow_drop_down</span>
+                    </button>
+                </div>
+                <div class="dropDown_contant">
+                    <a href="Standalone/reviews.html">Reviews</a>
+                    <a href="watchlist/menu.html">Watchlist</a>
+                    <div class="line"></div>
+                    <a href="LoginPage/Main.html">sign Out</a>
+                </div>
+            </div>
+    
+            <div class="Listright">
+                <a href="categories.html">Films</a>
+                <a style="color: white;"href="News.html">LISTS</a>
+                <a href="Standalone/Likes.html">FAVORITES</a>
+                <a  href="News/News.html" href="News/News.html">NEWS</a>
+                <div class="search-container">
+                    <input type="text" name="search" placeholder="  Search..." class="search-input">
+                    <a href="#" class="search-btn">
+                        <i class="material-icons">search</i>
+                    </a>
+                </div>
+    
+    
+    
+            </div>
+    
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    
+      <!--Navbar end-->
+    <br>
+    
+    <div class="centerofPage">
+       <center>
+        <h1 style="color: #b7c5de;">LISTS</h1>
+        <h3 style="color: #b7c5de; font-weight: lighter; font-size: larger;font-size: 20px;">Collect, curate, and share. Lists are the perfect way to group films.</h3>
+        <br><br>
+        <br>
+        <div class="browse-label-justReview">
+            <pre style="font-size: 15px; color:#9aa6bb ; text-transform: capitalize; padding-right: 20%; ">Popular this week                                                                                </pre>
+            </a>
+        </div>
+        <hr>
+<br>
+        <table class="tableIMage">
+            <tr>
+
+            <td>
+                <div style="background-color: #b7c5de; width: 300px; height: 335px;" class="container-list ">
+                    <a class="linkA" href="Documentaries.html" title="Documentaries" style="text-decoration: none;">
+                    <center> <img width="300px" height="331px" src="assest/Screenshot_7.png" >
+                    <br>
+                    </center>
+                    <div class="textList">
+                        <h3 style="color: #b7c5de; text-decoration: underline; padding-right: 150px; text-decoration: none; text-align: start;">Documentaries</h3>
+                        <br>
+                        <pre style="padding-left: 10px; color: #b7c5de;font-size: 10px;"><div class="bgcolorEmail"><img src="assest/person.jpeg" alt="avatar" class="Avatar" style="height: 25px; width: 25px;"><button class="dropbtn" style="font-size: 12px;">NOUR12365 </button>   <span style="font-size: 13px; color: #b7c5de;">    &#x1F90D; <span class="like-count">4,111</span></span>  <span style="font-size: 15px; color: #b7c5de;">    &#x1F5E8; <span class="comment">29</span></span>  
+
+
+ </div>
+                    </div>
+            </a>
+
+        </div>
+                </div>
+            </td>
+            <td>
+                <div style="background-color: #b7c5de; width: 300px; height: 335px;" class="container-list ">
+                    <a class="linkA" href="MoviesEveryone.html" title="Movies everyone" style="text-decoration: none;">
+                    <center> <img width="300px" height="331px" src="assest/Screenshot_1.png" >
+                    <br>
+                    </center>
+                    <div class="textList">
+                        <h3 style="color: #b7c5de; text-decoration: underline; padding-right: 150px; text-decoration: none; width: 250px; text-align: start;">Movies everyone should watch at least once during their lifetime</h3>
+                        <br>
+                        <pre style="padding-left: 10px; color: #b7c5de;font-size: 10px;"><div class="bgcolorEmail"><img src="assest/person.jpeg" alt="avatar" class="Avatar" style="height: 25px; width: 25px;"><button class="dropbtn" style="font-size: 12px;">Ahmed25 </button>   <span style="font-size: 13px; color: #b7c5de;">    &#x1F90D; <span class="like-count">25M</span></span>  <span style="font-size: 15px; color: #b7c5de;">    &#x1F5E8; <span class="comment">50</span></span>  
+
+
+ </div>
+                    </div>
+            </a>
+
+        </div>
+                </div>
+            </td>
+            <td>
+                <div style="background-color: #b7c5de; width: 300px; height: 335px;" class="container-list ">
+                    <a class="linkA" href="feel-something.html" title="For when you want to feel something" style="text-decoration: none;">
+                    <center> <img width="300px" height="331px" src="assest/Screenshot_2.png" >
+                    <br>
+                    </center>
+                    <div class="textList">
+                        <h3 style="color: #b7c5de; text-decoration: underline; padding-right: 150px; text-decoration: none;text-align: start; width: 250px;">For when you want to feel something</h3>
+                        <br>
+                        <pre style="padding-left: 10px; color: #b7c5de;font-size: 10px;"><div class="bgcolorEmail"><img src="assest/person.jpeg" alt="avatar" class="Avatar" style="height: 25px; width: 25px;"><button class="dropbtn" style="font-size: 12px;">Mariam526 </button>   <span style="font-size: 13px; color: #b7c5de;">    &#x1F90D; <span class="like-count">25K</span></span>  <span style="font-size: 15px; color: #b7c5de;">    &#x1F5E8; <span class="comment">20</span></span>  
+
+
+ </div>
+                    </div>
+            </a>
+
+        </div>
+                </div>
+            </td>
+              
+     
+        
+            </tr>
+        
+        </table>
+
+        <br>
+        <br><br><br><br><br><br>
+        <br>
+        <br>
+        <br>
+
+        <div class="browse-label-justReview">
+            <pre style="font-size: 15px; color: #b7c5de;"> Recently liked                                                                                                                         </pre>
+            </a>
+        </div>
+        <hr>
+        <br>
+        <br>
+        
+    
+        <div class="reviews">
+<a class="reviewLinkhover" href="#"> 
+            <table class="review" style="border-spacing: 10px; text-align: start; align-items: start;">
+                <tr style="display: flex; padding-right: 280px; border: none;">
+                    <td>
+                        <img height="111px" width="256px" style="border-radius: 5px; "
+                                src="assest/Screenshot_3.png">
+                    </td>
+                 
+                    <td style="width: 500px; text-align: start; ">
+                        <h3 class="TitleReviewA"><a style="text-decoration: none;padding: 10px;" class="TitleReview" href="#">A Nonsense Christmas with Sabrina
+                                Carpenter</a></h3>
+                        <h4 style="font-weight: lighter; color: #b7c5de; padding: 10px; ">2024</h4><br>
+                        <pre style="padding-left: 10px; color: #b7c5de;font-size: 10px;"><div class="bgcolorEmail"><img src="assest/person.jpeg" alt="avatar" class="Avatar" style="height: 25px; width: 25px;"><button class="dropbtn" style="font-size: 12px;">Mariam526 </button> <h4 style="color:#6c7585; font-size: medium;">  62_FILMS</h4>   <span style="font-size: 13px; color: #b7c5de;">  &#x1F90D; <span class="like-count">25K</span></span>  <span style="font-size: 15px; color: #b7c5de;">    &#x1F5E8; <span class="comment">20</span></span>                                                                                       
+                        </pre>
+                        <br>
+                        <h6 style="font-weight: lighter; color: #6d7788;font-size: medium; padding-left: 30px; text-align: start;">Mike Cheslik's inspirations for the major motion picture HUNDREDS OF BEAVERS.
+
+                            HUNDREDS OF BEAVERS was filmed over the pandemic in…</h6>
+                    </td>
+            <td></td>
+ <td></td>               </tr>
+                <tr></tr>
+            </table>
+            <br>
+        </a>
+            <hr style=" width: 75%; 
+            height: 1px; 
+            background-color: #b7c5de8e; 
+            border: none; 
+            margin: 0 auto;">
+            <br><br>
+            <a class="reviewLinkhover" href="#"> 
+                <table class="review" style="border-spacing: 10px; text-align: start; align-items: start;">
+                    <tr style="display: flex; padding-right: 280px; border: none;">
+                        <td>
+                            <img height="111px" width="256px" style="border-radius: 5px; "
+                                    src="list-wallpaper.png">
+                        </td>
+                     
+                        <td style="width: 500px; text-align: start; ">
+                            <h3 class="TitleReviewA"><a style="text-decoration: none; padding: 10px;" class="TitleReview" href="#">the boyz recommendations</a></h3>
+                            <h4 style="font-weight: lighter; color: #b7c5de;padding: 10px; ">2021</h4><br>
+                            <pre style="padding-left: 10px; color: #b7c5de;font-size: 10px;"><div class="bgcolorEmail"><img src="assest/person.jpeg" alt="avatar" class="Avatar" style="height: 25px; width: 25px;"><button class="dropbtn" style="font-size: 12px;">Mariam526 </button> <h4 style="color:#6c7585; font-size: medium;">  12_FILMS</h4>     <span style="font-size: 13px; color: #b7c5de;">  &#x1F90D; <span class="like-count">25K</span></span>  <span style="font-size: 15px; color: #b7c5de;">    &#x1F5E8; <span class="comment">20</span></span>                                                                                       
+                            </pre>
+                            <br>
+                        
+                        </td>
+                <td></td>
+     <td></td>               </tr>
+                    <tr></tr>
+                </table>
+                <br>
+            </a>
+            
+            <hr style=" width: 75%; 
+            height: 1px; 
+            background-color: #b7c5de8e; 
+            border: none; 
+            margin: 0 auto;">
+            <br><br>
+            <a class="reviewLinkhover" href="#"> 
+                <table class="review" style="border-spacing: 10px; text-align: start; align-items: start;">
+                    <tr style="display: flex; padding-right: 280px; border: none;">
+                        <td>
+                            <img height="111px" width="256px" style="border-radius: 5px; "
+                                    src="assest/Screenshot_8.png">
+                        </td>
+                     
+                        <td style="width: 500px; text-align: start; ">
+                            <h3 class="TitleReviewA"><a style="text-decoration: none; padding: 10px;" class="TitleReview" href="#">Lovecraftian</a></h3>
+                            <h4 style="font-weight: lighter; color: #b7c5de;padding: 10px; ">2024</h4><br>
+                            <pre style="padding-left: 10px; color: #b7c5de;font-size: 10px;"><div class="bgcolorEmail"><img src="assest/person.jpeg" alt="avatar" class="Avatar" style="height: 25px; width: 25px;"><button class="dropbtn" style="font-size: 12px;">Amira526 </button> <h4 style="color:#6c7585; font-size: medium;">  5_FILMS</h4>     <span style="font-size: 13px; color: #b7c5de;">  &#x1F90D; <span class="like-count">25K</span></span>  <span style="font-size: 15px; color: #b7c5de;">    &#x1F5E8; <span class="comment">20</span></span>                                                                                       
+                            </pre>
+                            <br>
+                            <h6 style="font-weight: lighter; color: #6d7788;font-size: medium; padding-left: 30px; text-align: start;">A list of films based upon the works of H.P. Lovecraft or having that creepy, haunting and ominous feel</h6>
+                        
+                        </td>
+                <td></td>
+     <td></td>               </tr>
+                    <tr></tr>
+                </table>
+                <br>
+            </a>
+            
+            
+            
+            <br>
+       </center>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <nav class="footer-links">
+                <a href="#">About</a>
+                <a href="#">News</a>
+                <a href="#">Help</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="footer-text">
+                &copy; Flick Picks Made .
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com"><img src="assest/instagram.jpeg" alt="Instagram"></a>
+                <a href="https://www.twitter.com"><img src="assest/twitter.jpeg" alt="X"></a>
+                <a href="https://www.facebook.com"><img src="assest/facebook.jpeg" alt="Facebook"></a>
+                <a href="https://www.youtube.com"><img src="assest/youtube.jpeg" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+    #111 30%,
+            #111 20%,
+            #111 40%,
+            #0f1011 60%,
+            #2f2f33 80%,
+            #111 100%);
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+    display: flex;
+    position: relative;
+}
+
+.Leftmenu img {
+
+
+    padding-left: 35%;
+    left: 20%;
+    height: 70px;
+    width: auto;
+
+}
+
+
+.rightmenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    left: 35%;
+
+}
+
+.Avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.dropDown {
+    display: flex;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #b7c5de;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn :hover {
+    color: white;
+}
+
+.dropDown_contant {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #6b798c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.dropDown_contant a {
+    color: #262a31;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropDown_contant a:hover {
+    background-color: #262a31;
+    color: #B7C5DE;
+}
+
+.dropDown:hover .dropDown_contant {
+    display: block;
+}
+
+.line {
+    border-top: 1px solid #262a31;
+}
+
+
+.Listright a {
+
+    margin-left: 7px;
+    text-decoration: none;
+    color: #b7c5de;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.Listright a:hover {
+    color: #ffffff;
+}
+
+.dropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.bgcolorEmail {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.material-icons {
+    font-size: 20px;
+}
+
+
+
+.search-container {
+
+    position: absolute;
+    left: 99%;
+    top: -60%;
+    height: 30px;
+    width: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+i {
+    align-content: center;
+
+}
+
+.search-container:hover .search-input {
+    width: 500px;
+    background: #fff;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border-color: #606172;
+}
+
+.search-container .search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+@keyframes hoverShake {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    25% {
+        transform: skew(5deg, 5deg);
+    }
+
+    75% {
+        transform: skew(-5deg, -5deg);
+    }
+
+    100% {
+        transform: skew(0deg, 0deg);
+    }
+}
+
+.search-container:hover {
+    animation: hoverShake 0.15s linear 3;
+}
+
+.Listright {
+    position: relative;
+}
+
